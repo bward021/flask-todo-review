@@ -1,9 +1,9 @@
 from app import ma  
-from app.models import User
+from app.models import Item
 
-class UserSchema(ma.SQLAlchemyAutoSchema):
+class ItemSchema(ma.SQLAlchemyAutoSchema):
     class Meta:
-        model = User
+        model = Item
 
-user_schema = UserSchema()
-users_schema = UserSchema(many=True)
+item_schema = ItemSchema()
+items_schema = ItemSchema(many=True)
