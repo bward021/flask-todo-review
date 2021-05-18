@@ -38,7 +38,7 @@ We're using `flask-migrate` with `alembic` to do our database migrations.  You w
 ​
 - After running the migrate command, run the upgrade command
 ```
-(venv) $ flask db updgrade
+(venv) $ flask db upgrade
 ```
 
 # Flask API Template
